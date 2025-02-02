@@ -19,3 +19,14 @@ for (let i = 0; i < sales.length; i++) {
 }
 
 console.log(`Total sales: $${totalSales}`);
+
+// Tsk 3 - while loop
+let stock = 10; // Initialize stock with 10
+
+while (stock > 0) {
+    console.log(`Stock remaining: ${stock}`);
+    stock--; // Decrease stock by 1
+}
+
+console.log("Stock is depleted.");
+
