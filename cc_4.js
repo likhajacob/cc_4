@@ -7,7 +7,7 @@ let finalAmount = purchaseAmount;
 if(purchaseAmount > 200) {
     finalAmount = purchaseAmount * 0.9;
 }
-console.log('Final amount after discount: $${finalAmount}');
+console.log("Final amount after discount: $${finalAmount}");
 
 // Task - 2 For Loop
 // Array of sales
@@ -18,13 +18,13 @@ for (let i = 0; i < sales.length; i++) {
     totalsales += sales[i];
 }
 
-console.log(`Total sales: $${totalSales}`);
+console.log("Total sales: $${totalSales}");
 
 // Tsk 3 - while loop
 let stock = 10; // Initialize stock with 10
 
 while (stock > 0) {
-    console.log(`Stock remaining: ${stock}`);
+    console.log("Stock remaining: ${stock}");
     stock--; // Decrease stock by 1
 }
 
@@ -35,14 +35,14 @@ console.log("Stock is depleted.");
 
 let responses = 0; // Initialize responses with 0
 do {
-    console.log(`Responses collected: ${responses}`);
+    console.log("Responses collected: ${responses}");
     responses++; // Simulate user input
 } while (responses < 3);
 
 // Task 5 - For... In loop
 let employee = { name: "Alice", position: "Manager", salary: 75000 };
 for (let key in employee) {
-    console.log(`${key}: ${employee[key]}`);
+    console.log("${key}: ${employee[key]}");
 }
 
 // Task 6 - For...of loop
@@ -54,7 +54,7 @@ for (let product of products) {
 // Task 7 - For Each()Method
 let orders = [101, 102, 103];
 orders.forEach(order => {
-    console.log(`Processing Order ID: ${order}`);
+    console.log("Processing Order ID: ${order}");
 });
 
 // Task 8 - Function Declaration
@@ -63,18 +63,19 @@ function calculateTax(amount, taxRate) {
 }
 
 let tax = calculateTax(100, 25);
-console.log('Tax: $${tax}'); 
+console.log("Tax: $${tax}"); 
 
 // Task 9 - Function Expressions
 const applyDiscount = function(price, discountPercentage){
     return price - (price * (discountPercentage / 100));
 }
 let discountedPrice = applyDiscount (100, 10)
-console.log('Discounted Price: $$ {discountedPrice}');
+console.log("Discounted Price: $$ {discountedPrice}");
 
 // Task 10 - Arrow functions
 const calculatePoints = (purchaseAmount) =>{
     return (purchaseAmount / 10);
 };
 let points = calculatePoints(200);
-console.log('Loyalaty points earned: ${points}');
+console.log("Loyalaty points earned: ${points}");
+
