@@ -30,3 +30,12 @@ while (stock > 0) {
 
 console.log("Stock is depleted.");
 
+// Task 4 - while loop 
+console.log("Stock is depleted.");
+
+let responses = 0; // Initialize responses with 0
+do {
+    console.log(`Responses collected: ${responses}`);
+    responses++; // Simulate user input
+} while (responses < 3);
+
