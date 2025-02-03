@@ -39,3 +39,9 @@ do {
     responses++; // Simulate user input
 } while (responses < 3);
 
+// Task 5 - For... In loop
+let employee = { name: "Alice", position: "Manager", salary: 75000 };
+for (let key in employee) {
+    console.log(`${key}: ${employee[key]}`);
+}
+
