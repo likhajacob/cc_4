@@ -15,7 +15,7 @@ let sales = [103, 125, 110, 115, 124]
 let totalsales=0;
 //loop to calculate total sales
 for (let i = 0; i < sales.length; i++) {
-    totalSales += sales[i];
+    totalsales += sales[i];
 }
 
 console.log(`Total sales: $${totalSales}`);
